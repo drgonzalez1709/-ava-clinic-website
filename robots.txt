@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://drgonzalez1709.github.io/-ava-clinic-website/sitemap.xml

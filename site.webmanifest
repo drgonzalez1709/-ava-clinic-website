@@ -1,0 +1,16 @@
+{
+  "name": "AVA Clinic — by Dr. Rodney González",
+  "short_name": "AVA Clinic",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#fcfaf6",
+  "theme_color": "#132a35",
+  "icons": [
+    {
+      "src": "assets/images/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
