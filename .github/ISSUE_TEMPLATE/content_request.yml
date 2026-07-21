@@ -1,0 +1,22 @@
+name: Solicitud de contenido
+description: Proponer una nueva página o actualización de información
+title: "[Contenido]: "
+labels: ["content"]
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objetivo
+      description: ¿Qué necesita comunicar y a quién?
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Fuente clínica o aprobación
+      description: Incluya guía, referencia o persona responsable de aprobar.
+  - type: dropdown
+    id: risk
+    attributes:
+      label: ¿Contiene afirmaciones clínicas o comerciales?
+      options: ["Sí", "No", "No estoy seguro"]
